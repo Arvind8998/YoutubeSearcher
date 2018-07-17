@@ -1,0 +1,100 @@
+CONST- Syntax of JSX
+Const app = function(){}
+It means app cant be reassigned or its value cant be changed duruing 
+whole program.
+
+JSX & ES6  OR ES2016 Cant be understood by browser,
+these are converted into single javascript bundle by tool 
+webpack which uses library babble to convert code into vanilla JS
+Which is understood by Browser..
+
+JSX written inside component is converted into html when component 
+is rendered on  screen.
+
+component written is converted into    html to run at  browser
+
+JSX inside Componenet get transpiled into Vanilla JS /Es5
+JSX makes componenet lot  more clean and legible
+
+AIzaSyA2ZoWC0yWBheT8IZ8FVk5mgY34DMDwZ38 -Api Key
+
+Class Component -Internal record keeping, ability to aware of itself, what happens to it when it is renderd., communicate with other component
+
+
+React Component/ Functional Component - Sone data goesa in , JSX Comes out, perform single function
+
+eS6 cLASS - js object with prop and methods to it
+
+{component} -import react and pull of property component as a variable Component
+
+Every Classs component must have 
+ 
+ Pass event handler to the element that we need to watch
+ 
+ event handler - on/handle, name of element , name of event
+ 
+ event object describe context ,information about the event
+ 
+ onChange is thwe property
+ 
+ state is a plain javascript object that is used to record and react to user events
+ eaach class based components has its own state object , whenver a component state is chanegd the components immediately rendersit forces its children to rerender as well
+ 
+ 
+  value of input : {this.state.term}
+  
+  YOUTUBE API DATA -
+  Array(5)
+0
+:
+etag
+:
+""XI7nbFXulYBIpL0ayR_gDh3eu1k/F7Y8q58-KNrbZdxixm3LauBRGL4""
+id
+:
+kind
+:
+"youtube#video"
+videoId
+:
+"g0nqmvglhdE"
+__proto__
+:
+Object
+kind
+:
+"youtube#searchResult"
+snippet
+:
+channelId
+:
+"UCNHPLKhR3V0pSZT-FLSUPNA"
+channelTitle
+:
+"Balqees Dzz"
+description
+:
+""
+liveBroadcastContent
+:
+"none"
+publishedAt
+:
+"2014-12-20T10:44:49.000Z"
+thumbnails
+:
+{default: {…}, medium: {…}, high: {…}}
+title
+:
+"CODY SIMPSON SURFBOARD Official Video"
+__proto__
+:
+Object
+__proto__
+:
+Object
+
+const videoSearch = _.debounce((term))
+
+
+
